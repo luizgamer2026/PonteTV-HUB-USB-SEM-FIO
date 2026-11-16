@@ -146,7 +146,7 @@ object HidBridge {
             in KeyEvent.KEYCODE_F2..KeyEvent.KEYCODE_F12 -> 0x3B + (k - KeyEvent.KEYCODE_F2)
             KeyEvent.KEYCODE_PRINT_SCREEN -> 0x46
             KeyEvent.KEYCODE_SCROLL_LOCK -> 0x47
-            KeyEvent.KEYCODE_PAUSE -> 0x48
+            KeyEvent.KEYCODE_BREAK -> 0x48
             KeyEvent.KEYCODE_INSERT -> 0x49
             KeyEvent.KEYCODE_HOME -> 0x4A
             KeyEvent.KEYCODE_PAGE_UP -> 0x4B

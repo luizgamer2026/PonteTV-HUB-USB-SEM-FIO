@@ -144,7 +144,7 @@ object HidBridge {
             KeyEvent.KEYCODE_CAPS_LOCK -> 0x39
             KeyEvent.KEYCODE_F1 -> 0x3A
             in KeyEvent.KEYCODE_F2..KeyEvent.KEYCODE_F12 -> 0x3B + (k - KeyEvent.KEYCODE_F2)
-            KeyEvent.KEYCODE_PRINT_SCREEN -> 0x46
+            KeyEvent.KEYCODE_SYSRQ -> 0x46
             KeyEvent.KEYCODE_SCROLL_LOCK -> 0x47
             KeyEvent.KEYCODE_BREAK -> 0x48
             KeyEvent.KEYCODE_INSERT -> 0x49
